@@ -5,7 +5,8 @@ This repository provides a way to launch the Allstar application with Steam, byp
 
 The executable was created from the Python script using PyInstaller. If you'd like to modify the script and rebuild the executable, follow the instructions below.
 
-You can choose whether to keep the Allstar application running after Steam closes by modifying the `KEEP_ALLSTAR_RUNNING` variable in the `launch_allstar_with_steam.py` script. Set it to true to keep Allstar running, or `false` to `close` it when Steam exits.
+You can choose whether to keep the Allstar application running after Steam closes by modifying the `KEEP_ALLSTAR_RUNNING` variable in the `launch_allstar_with_steam.py` script. Set it to `True` to keep Allstar running, or `False` to close it when Steam exits.
+The default is `True`.
 
 ## Building the Executable
 
